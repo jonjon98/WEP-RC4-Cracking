@@ -1,7 +1,5 @@
 # WEP_RC4_Cracking_App
 
-Video Presentation Link: https://youtu.be/mEKRhGqt4j0
-
 ## Contents
 1. [Background](#background)
 2. [Motivation](#motivation)
