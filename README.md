@@ -44,6 +44,7 @@ This section serves as a guide and include **2 methods** to observe the demonstr
     
     - Outcome
     
+    ![ARC4 implementation image](/rc4_implementation_output.JPG)
 
   - ***Decryption of key using simulated WEP packets***: 
     - Input the chosen key
@@ -55,7 +56,7 @@ This section serves as a guide and include **2 methods** to observe the demonstr
     
     - Simulate the generation of the packets
    
-    ![This is an image](/generated_packets.JPG)
+    ![Generated packets image](/generated_packets.JPG)
     
     - Retrieval of the key by exploiting ARC4 vulnerabilities.
 
@@ -66,3 +67,7 @@ This section serves as a guide and include **2 methods** to observe the demonstr
 4. To observe the ARC4 implementation alone, utilize the **"Encrypt"** and **"Decrypt"** buttons.
 5. To observe the decryption of key over the WEP network, utilize the **"Generate"** button to simulate the generation of filtered WEP packets with ARC4 encryption and the **"Retrieve key"** button to decrypt the key from analysing the simulated packets.
 6. Observe the results displayed in the bottom frame.
+
+**Snippet of demo application**
+
+![Demo application snippet](/demo_application.JPG)
