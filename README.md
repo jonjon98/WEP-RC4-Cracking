@@ -31,7 +31,7 @@ We have started out by studying the WEP protocol, the ciphers it uses and the ty
 
 
 ## Design
-Our project consists of 2 parts, a Jupyter Notebook file and a small application for anyone to use. The contents in both the parts are similar, consisting of the ARC4 algorithm, as well as the FMS attack algorithm. For the application, abstraction is used to make the design clean and user friendly such that even a person with no coding experience could successfully use the application. Our WEP packet generator 
+Our project consists of 2 parts, a Jupyter Notebook file and a small application for anyone to use. The contents in both the parts are similar, consisting of the ARC4 algorithm, as well as the FMS attack algorithm. For the application, abstraction is used to make the design clean and user friendly such that even a person with no coding experience could successfully use the application. Our WEP packet generator ![WEP_packet_format](/Images/WEP_packet_format.gif)
 
 *Disclaimer*: We did not manage to obtain a suitable WIFI adapter to be used to capture the WEP packets required to crack the ARC4 algorithm, so as an alternative, we decided to incorporate our own WEP packet generator which generates WEP packets in a csv file that would be later used to crack the ARC4 algorithm.
 
