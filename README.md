@@ -13,6 +13,8 @@ Even though WEP cracking has been attempted before, and there are even industry 
 ## Research
 We have started out by studying the WEP protocol, the ciphers it uses and the types of packets it would send. As our goal is to obtain the key of the WEP network, our study is more focused on the confidentiality of the WEP protocol which would be the ARC4 cipher, and the potential attacks against it. In the end we decided to go ahead with the Fluhrer, Mantin and Shamir (FMS) attack. The FMS attack in summary is an attack which exploits weaknesses in the initialisation vectors (IVs) of the WEP protocol using statistical analysis.
 
+***For more details on FMS, refer to our presentation video***: https://youtu.be/mEKRhGqt4j0
+
 
 ## Design
 Our project consists of 2 parts, a Jupyter Notebook file and a small application for anyone to use. The contents in both the parts are similar, consisting of the ARC4 algorithm, as well as the FMS attack algorithm. For the application, abstraction is used to make the design clean and user friendly such that even a person with no coding experience could successfully use the application. 
