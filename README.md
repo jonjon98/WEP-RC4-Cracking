@@ -18,7 +18,10 @@ Wired Equivalent Policy (WEP) come out as part of the original 802.11 standard i
 
 
 ## Development
+This section details the tools and libraries used in this project.
 
+- **Jupyter Notebook**: pandas, numpy, csv
+- **IDLE Python 3**: tkinter, csv
 
 
 ## Code Usage
