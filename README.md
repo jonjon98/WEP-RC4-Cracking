@@ -8,7 +8,7 @@
 4. [Design](#design)
 5. [Development](#development)
 6. [Code Usage](#code-usage)
-7. [Reference](#references)
+7. [References](#references)
 
 
 ## Background
