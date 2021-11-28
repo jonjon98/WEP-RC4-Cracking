@@ -66,11 +66,11 @@ This section serves as a guide and include **2 methods** to observe the demonstr
     
     - Simulate the generation of the packets
    
-    ![Generated packets image](/Images/generated_packets.JPG)
+    ![Generated packets image](/Images/generated_packets.jpg)
     
     - Retrieval of the key by exploiting ARC4 vulnerabilities.
 
-    ![Retrieve key out](/Images/retrieve_key_output.JPG)
+    ![Retrieve key out](/Images/retrieve_key_output.jpg)
 
 ### Application
 1. Download the ```Application Codes``` folder and run the ```Main.py``` file with the command prompt or your preferred Python IDE.
@@ -82,4 +82,4 @@ This section serves as a guide and include **2 methods** to observe the demonstr
 
 **Snippet of demo application**
 
-![Demo application snippet](/Images/demo_application.JPG)
+![Demo application snippet](/Images/demo_application.jpg)
