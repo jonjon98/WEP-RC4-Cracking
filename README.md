@@ -28,7 +28,7 @@ This section details the **tools and libraries** used in this project.
 This section serves as a guide and include **2 methods** to observe the demonstration of WEP password cracking.
 
 ### Jupyter Notebook
-1. Download the ```ipynb Codes``` folder and run the ```RC4\_encryption.ipynb``` file.
+1. Download the ```ipynb Codes``` folder and run the ```RC4_encryption.ipynb``` file.
 2. Run the codes line by line.
 3. The codes are split into 2 sections: ***ARC4 Encryption and Decryption*** & ***Decryption of key using simulated WEP packets***.
   - ***ARC4 Encryption and Decryption***: Input the key and plain text when required and observe the code line output.
