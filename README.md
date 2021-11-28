@@ -14,6 +14,7 @@
 Wired Equivalent Policy (WEP) come out as part of the original 802.11 standard in 1997. It has seen a huge decrease in usage however due to weaknesses of the cipher that is incorporated in it being widely known. WEP uses the Alleged Rivest Cipher 4 (ARC4) algorithm for confidentiality and Cyclic Redundancy Check-32 (CRC-32) for integrity. 
 
 ![how_WEP_works](/Images/how_WEP_works.PNG)
+image1
 
 In the snippet above, we can see how WEP works in general. The ARC4 algorithm used in WEP uses a combination of IV and pre-shared key as the input key. Assuming Alice wants to send a message to Bob over the WEP, she would first have to decide on a pre-shared key to be shared with Bob, then generate a keystream using ARC4, with the input key as the Initialization vector concatenated with the pre-shared key. The key stream will then XOR with the original message to produce a ciphertext. The IV and CT is then transmitted to Bob. With the pre-shared key on hand, Bob is able to generate the same keystream and decrypt the message by simply XOR-ing the cipher text to retrieve the plain text. One thing to note is that since the IV is sequential, each packet will be encrypted using a different ARC4 key due to the changing IV.
 
@@ -31,7 +32,12 @@ We have started out by studying the WEP protocol, the ciphers it uses and the ty
 
 
 ## Design
-Our project consists of 2 parts, a Jupyter Notebook file and a small application for anyone to use. The contents in both the parts are similar, consisting of the ARC4 algorithm, as well as the FMS attack algorithm. For the application, abstraction is used to make the design clean and user friendly such that even a person with no coding experience could successfully use the application. Our WEP packet generator ![WEP_packet_format](/Images/WEP_packet_format.gif)
+Our project consists of 2 parts, a Jupyter Notebook file and a small application for anyone to use. The contents in both the parts are similar, consisting of the ARC4 algorithm, as well as the FMS attack algorithm. For the application, abstraction is used to make the design clean and user friendly such that even a person with no coding experience could successfully use the application. The actual WEP packet has the format shown below:
+
+![WEP_packet_format](/Images/WEP_packet_format.gif)
+image2
+
+However, for our own generated WEP packets, we would not need the "Header", "Key number" and "ICV" fields. Our packets only has the IV with the encrypted payload, the first byte of the payload is also our encrypted SNAP header of value 0xAA. This would be sufficient to demostrate the FMS attack.
 
 *Disclaimer*: We did not manage to obtain a suitable WIFI adapter to be used to capture the WEP packets required to crack the ARC4 algorithm, so as an alternative, we decided to incorporate our own WEP packet generator which generates WEP packets in a csv file that would be later used to crack the ARC4 algorithm.
 
@@ -61,6 +67,7 @@ This section serves as a guide and include **2 methods** to observe the demonstr
     - Outcome
     
     ![ARC4 implementation image](/Images/rc4_implementation_output.jpg)
+    image3
 
   - ***Decryption of key using simulated WEP packets***: 
     - Input the chosen key
@@ -73,10 +80,12 @@ This section serves as a guide and include **2 methods** to observe the demonstr
     - Simulate the generation of the packets
    
     ![Generated packets image](/Images/generated_packets.jpg)
+    image4
     
     - Retrieval of the key by exploiting ARC4 vulnerabilities.
 
     ![Retrieve key out](/Images/retrieve_key_output.jpg)
+    image5
 
 ### Application
 1. Download the ```Application Codes``` folder and run the ```Main.py``` file with the command prompt or your preferred Python IDE.
@@ -89,3 +98,8 @@ This section serves as a guide and include **2 methods** to observe the demonstr
 **Snippet of demo application**
 
 ![Demo application snippet](/Images/demo_application.jpg)
+image6
+
+
+## References
+
