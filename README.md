@@ -54,7 +54,7 @@ This section serves as a guide and include **2 methods** to observe the demonstr
     
     - Outcome
     
-    ![ARC4 implementation image](./Images/rc4_implementation_output.JPG)
+    ![ARC4 implementation image](/Images/rc4_implementation_output.jpg)
 
   - ***Decryption of key using simulated WEP packets***: 
     - Input the chosen key
