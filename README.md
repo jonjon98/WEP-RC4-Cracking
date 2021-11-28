@@ -1,5 +1,6 @@
 # WEP_RC4_Cracking_App
 
+
 ## Contents
 1. [Background](#background)
 2. [Motivation](#motivation)
@@ -7,6 +8,7 @@
 4. [Design](#design)
 5. [Development](#development)
 6. [Code Usage](#code-usage)
+
 
 ## Background
 Wired Equivalent Policy (WEP) come out as part of the original 802.11 standard in 1997. It has seen a huge decrease in usage however due to weaknesses of the cipher that is incorporated in it being widely known. WEP uses the Alleged Rivest Cipher 4 (ARC4) algorithm for confidentiality and Cyclic Redundancy Check-32 (CRC-32) for integrity. 
