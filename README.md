@@ -22,11 +22,11 @@ Wired Equivalent Policy (WEP) come out as part of the original 802.11 standard i
 
 
 ## Code Usage
-This section serves as a guide to run the application for demonstration.
+This section serves as a guide to run the demonstration application.
 
-1. Download the "Application Codes" folder and run the "Main.py" file with the command prompt or your preferred Python IDE.
-2. A new application window with the title "Attack on WEP wtih ARC4 encryption" should appear.
-3. Input the chosen **key** and **plain text** and hit "enter".
+1. Download the <u>Application Codes<u> folder and run the <u>Main.py<u> file with the command prompt or your preferred Python IDE.
+2. A new application window with the title *"Attack on WEP wtih ARC4 encryption"* should appear.
+3. Input the chosen **key** and **plain text** and hit **enter**.
 4. To observe the ARC4 implementation alone, utilize the **"Encrypt"** and **"Decrypt"** buttons.
 5. To observe decryption of key over the WEP network, utilize the **"Generate"** button to simulate the generation of filtered WEP packets with ARC4 encryption and the **"Retrieve key"** button to decrypt the key from analysing the simulated packets.
 6. Results are displayed in the bottom frame in text format.
