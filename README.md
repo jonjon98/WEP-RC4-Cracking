@@ -43,7 +43,7 @@ This section serves as a guide and include **2 methods** to observe the demonstr
     ```
     
     - Outcome
-    ![This is an image](/generated_packets.jpg)
+    
 
   - ***Decryption of key using simulated WEP packets***: 
     - Input the chosen key
@@ -55,6 +55,8 @@ This section serves as a guide and include **2 methods** to observe the demonstr
     
     - Simulate the generation of the packets
    
+    ![This is an image](/generated_packets.JPG)
+    
     - Retrieval of the key by exploiting ARC4 vulnerabilities.
 
 ### Application
