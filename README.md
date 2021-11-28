@@ -34,8 +34,27 @@ This section serves as a guide and include **2 methods** to observe the demonstr
 1. Download the ```ipynb Codes``` folder and run the ```RC4_encryption.ipynb``` file.
 2. Run the codes line by line.
 3. The codes are split into 2 sections: ***ARC4 Encryption and Decryption*** & ***Decryption of key using simulated WEP packets***.
-  - ***ARC4 Encryption and Decryption***: Input the key and plain text when required and observe the code line output.
-  - ***Decryption of key using simulated WEP packets***: Simulate the generation of the packets, followed by the retrieval of the key by exploiting ARC4 vulnerabilities.
+  - ***ARC4 Encryption and Decryption***: 
+    - Input the key and plain text.
+    ```
+    # Choose your key and plaintext
+    key = "a1b2c3d4e5f6"
+    plainText = "This is a plaintext."
+    ```
+    
+    - Outcome
+
+  - ***Decryption of key using simulated WEP packets***: 
+    - Input the chosen key
+    ```
+    # Choose your key
+    #Only accept hexadecimals as key & multiple of 2 chars
+    WEP_key = "a1c24d3ce2"
+    ```
+    
+    - Simulate the generation of the packets
+   
+    - Retrieval of the key by exploiting ARC4 vulnerabilities.
 
 ### Application
 1. Download the ```Application Codes``` folder and run the ```Main.py``` file with the command prompt or your preferred Python IDE.
