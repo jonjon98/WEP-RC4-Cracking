@@ -60,6 +60,8 @@ This section serves as a guide and include **2 methods** to observe the demonstr
     
     - Retrieval of the key by exploiting ARC4 vulnerabilities.
 
+    ![Retrieve key out](/retrieve_key_output.JPG)
+
 ### Application
 1. Download the ```Application Codes``` folder and run the ```Main.py``` file with the command prompt or your preferred Python IDE.
 2. A new application window with the title "Attack on WEP wtih ARC4 encryption"_ should appear.
