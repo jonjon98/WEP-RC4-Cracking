@@ -5,4 +5,28 @@ Video Presentation Link: https://youtu.be/mEKRhGqt4j0
 ## Background
 Wired Equivalent Policy (WEP) come out as part of the original 802.11 standard in 1997. It has seen a huge decrease in usage however due to weaknesses of the cipher that is incorporated in it being widely known. WEP uses the Alleged Rivest Cipher 4 (ARC4) algorithm for confidentiality and Cyclic Redundancy Check-32 (CRC-32) for integrity. In this project, we would be focusing on cracking the ARC4 cipher in order to obtain the secret WEP key. This would allow us to demostrate the weakness of WEP and why most routers today default to other protocols such as WPA/WPA2.
 
-## Motivations
+## Motivation
+
+
+
+
+
+
+
+
+
+
+
+## Development
+
+
+
+## Code Usage
+This section serves as a guide to run the application for demonstration.
+
+1. Download the "Application Codes" folder and run the "Main.py" file with the command prompt or your preferred Python IDE.
+2. A new application window with the title "Attack on WEP wtih ARC4 encryption" should appear.
+3. Input the chosen **key** and **plain text** and hit "enter".
+4. To observe the ARC4 implementation alone, utilize the **"Encrypt"** and **"Decrypt"** buttons.
+5. To observe decryption of key over the WEP network, utilize the **"Generate"** button to simulate the generation of filtered WEP packets with ARC4 encryption and the **"Retrieve key"** button to decrypt the key from analysing the simulated packets.
+6. Results are displayed in the bottom frame in text format.
