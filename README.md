@@ -11,7 +11,7 @@
 ## Background
 Wired Equivalent Policy (WEP) come out as part of the original 802.11 standard in 1997. It has seen a huge decrease in usage however due to weaknesses of the cipher that is incorporated in it being widely known. WEP uses the Alleged Rivest Cipher 4 (ARC4) algorithm for confidentiality and Cyclic Redundancy Check-32 (CRC-32) for integrity. 
 
-![how_WEP_works](/Images/how_WEP_works.jpg)
+![how_WEP_works](/Images/how_WEP_works.PNG)
 
 In the snippet above, we can see how WEP works in general. The ARC4 algorithm used in WEP uses a combination of IV and pre-shared key as the input key. Assuming Alice wants to send a message to Bob over the WEP, she would first have to decide on a pre-shared key to be shared with Bob, then generate a keystream using ARC4, with the input key as the Initialization vector concatenated with the pre-shared key. The key stream will then XOR with the original message to produce a ciphertext. The IV and CT is then transmitted to Bob. With the pre-shared key on hand, Bob is able to generate the same keystream and decrypt the message by simply XOR-ing the cipher text to retrieve the plain text. One thing to note is that since the IV is sequential, each packet will be encrypted using a different ARC4 key due to the changing IV.
 
