@@ -28,15 +28,15 @@ This section details the **tools and libraries** used in this project.
 This section serves as a guide and include **2 methods** to observe the demonstration of WEP password cracking.
 
 ### Jupyter Notebook
-1. Download the ```_ipynb Codes_``` folder and run the _RC4\_encryption.ipynb_ file.
+1. Download the ```ipynb Codes``` folder and run the ```RC4\_encryption.ipynb``` file.
 2. Run the codes line by line.
 3. The codes are split into 2 sections: ***ARC4 Encryption and Decryption*** & ***Decryption of key using simulated WEP packets***.
   - ***ARC4 Encryption and Decryption***: Input the key and plain text when required and observe the code line output.
   - ***Decryption of key using simulated WEP packets***: Simulate the generation of the packets, followed by the retrieval of the key by exploiting ARC4 vulnerabilities.
 
 ### Application
-1. Download the _Application Codes_ folder and run the _Main.py_ file with the command prompt or your preferred Python IDE.
-2. A new application window with the title _"Attack on WEP wtih ARC4 encryption"_ should appear.
+1. Download the ```Application Codes``` folder and run the ```Main.py``` file with the command prompt or your preferred Python IDE.
+2. A new application window with the title "Attack on WEP wtih ARC4 encryption"_ should appear.
 3. Input the chosen **key** and **plain text** and hit the **enter** button.
 4. To observe the ARC4 implementation alone, utilize the **"Encrypt"** and **"Decrypt"** buttons.
 5. To observe the decryption of key over the WEP network, utilize the **"Generate"** button to simulate the generation of filtered WEP packets with ARC4 encryption and the **"Retrieve key"** button to decrypt the key from analysing the simulated packets.
