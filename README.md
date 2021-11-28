@@ -97,5 +97,7 @@ This section serves as a guide and include **2 methods** to observe the demonstr
 
 ## References
 WEP protocol: https://www.techtarget.com/searchsecurity/definition/Wired-Equivalent-Privacy
+
 FMS attack: https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.16.2068&rep=rep1&type=pdf
+
 WEP packet format: https://flylib.com/books/en/2.519.1/wep_cryptographic_operations.html
