@@ -15,7 +15,7 @@ Wired Equivalent Policy (WEP) come out as part of the original 802.11 standard i
 
 
 ## Motivation
-Even though WEP cracking has been attempted before, and there are even industry standard tools to make cracking it simple for everyone, the concept behind the weaknesses of WEP, and by extension ARC4, is still an interesting one to explore further. We decided to choose this topic for our project as it can give us somemore insights as to why WEP is being phased out by other protocols and learn what weakness a seemingly strong cipher like ARC4 has. 
+Even though WEP cracking has been attempted before, and there are even industry standard tools to make cracking it simple for everyone, the concept behind the weaknesses of WEP, and by extension ARC4, is still an interesting one to explore further. We decided to choose this topic for our project as it can give us somemore insights as to why WEP is being phased out by other protocols and learn what weakness a seemingly strong cipher like ARC4 has. This can be linked to real life situations where we should be cautious of what we implement and do our due diligence. Our programs should also be scalable should the need to change the cipher arise.
 
 
 ## Research
