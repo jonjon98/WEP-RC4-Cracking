@@ -34,7 +34,7 @@ This section serves as a guide and include **2 methods** to observe the demonstr
 ### Application
 1. Download the _Application Codes_ folder and run the _Main.py_ file with the command prompt or your preferred Python IDE.
 2. A new application window with the title _"Attack on WEP wtih ARC4 encryption"_ should appear.
-3. Input the chosen **key** and **plain text** and hit **enter**.
+3. Input the chosen **key** and **plain text** and hit the **enter** button.
 4. To observe the ARC4 implementation alone, utilize the **"Encrypt"** and **"Decrypt"** buttons.
 5. To observe the decryption of key over the WEP network, utilize the **"Generate"** button to simulate the generation of filtered WEP packets with ARC4 encryption and the **"Retrieve key"** button to decrypt the key from analysing the simulated packets.
 6. Observe the results displayed in the bottom frame.
