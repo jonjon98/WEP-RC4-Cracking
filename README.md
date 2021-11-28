@@ -43,7 +43,7 @@ This section serves as a guide and include **2 methods** to observe the demonstr
     ```
     
     - Outcome
-    ![Outcome](https://github.com/jonjon98/WEP_RC4_Cracking/blob/generated_packets.jpg?raw=true)
+    ![This is an image](/generated_packets.jpg)
 
   - ***Decryption of key using simulated WEP packets***: 
     - Input the chosen key
